@@ -1,0 +1,1 @@
+./dirsearch.py -u 'https://example' -e html,aspx,axd,php,js,bak,log,swp,sql,xml,pwd,txt,rb,ini,logs,htm,swp,axd,asp,tmp,cfc,cfm,htm,yml,do,axd,jsp,be -b -r
