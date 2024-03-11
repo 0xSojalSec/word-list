@@ -1,5 +1,5 @@
 # Awesome Wordlists 📓 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-A curated list of <h1 align="center">
+A Created list of <h1 align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=ubuntu&color=%23B335F7&size=22&vCenter=true&height=40&lines=Awesome+Wordlists%F0%9F%98%80">
 </h1>  for brute-forcing and fuzzing ⚔️
 
