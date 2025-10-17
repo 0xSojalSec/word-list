@@ -1,3 +1,8 @@
+"example.com" AND ("api_key" OR "secret" OR "password" OR "access_token" OR "client_secret" OR "private_key" OR "AWS_SECRET_ACCESS_KEY" OR "DB_PASSWORD" OR "slack_token" OR "github_token" OR "BEGIN RSA PRIVATE KEY") NOT www
+"example.com" AND (path:**/.env OR path:**/env.local OR path:**/.env.production OR path:**/config.php OR path:**/main.tf OR path:**/.git OR path:/config OR path:**/config.json OR path:**/settings.py OR path:**/config.yml OR path:**/config.ini OR path:**/.htpasswd OR path:**/.git-credentials OR path:**/.npmrc OR path:**/config.php OR path:**/wp-config.php OR path:**/docker-compose.yml OR path:**/secrets.yml OR path:**/id_rsa OR path:**/database.yml OR path:**/.ssh/config)
+"example.com" AND (path:*.sql OR path:*.env OR path:*.ini OR path:*log OR path:*.bak OR path:*.cfg OR path:*.json OR path:*.yaml OR path:*.xml OR path:*.cer OR path:*.pem OR path:**/.bash_history OR path:**/*.bash_profile OR path:**/.bashrc OR path:**/.cshrc)
+"example.com" AND ("DB_HOST" OR "DB_USERNAME" OR "DB_USER" OR "DB_PASS" OR "DATABASE_URL" OR "db_uri" OR "sql_username" OR "sql_password" OR "mongo_uri" OR "mongodb_password" OR "postgres://")
+"example.com" AND ("password" OR "access_key" OR "access_token" OR "amazonaws")
 org:Target"bucket_name"
 org:Target"aws_access_key"
 org:Target"aws_secret_key"
