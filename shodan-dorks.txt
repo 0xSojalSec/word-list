@@ -1,0 +1,2 @@
+hostname:*.example.com&facet=domain
+hostname:*.example.com http.title:"Swagger UI"
